@@ -1,0 +1,113 @@
+
+section{
+    width: 100%;
+}
+.container{
+    height: 800px;
+    width: 1240px;
+}
+.about .container{
+    height: 700px;
+    margin: 0 auto;
+}
+.about-container video{
+    width:100%;
+    height: 400px;
+    object-fit:cover;
+}
+.about-text{
+    text-align:justify;
+    margin: 30px;
+    padding:0 80px;
+}
+.about-text h1{
+    text-align:center;
+    font-size: 40px;
+}
+.about-text p{
+    padding-top: 20px;
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container.building{
+    display:flex;
+    padding: 30px 0px 40px 40px; 
+    height: 700px;
+    justify-content: center;
+}
+.brand-wehave{
+    display:flex;
+    background-color: #f9f4f7;
+    margin-top:50px;
+}
+.four1{
+    display:flex;
+}
+
+.building .infor{
+    background-color: #e0dddd;
+    padding: 50px 60px 50px 50px;
+    margin: 80px 20px;
+    height:430px;
+    width: 550px; 
+}
+.building .infor p{
+    padding: 20px;
+    font-size: 24px;
+    text-align:justify;
+    line-height: 35px;
+}
+.container.building img {
+    --s: 250px;   /* size images */
+    --b: 8px;     /* the border thickness*/
+    --g: 14px;    /* the gap */
+    --c: #4ECDC4; /* the color */
+    
+    margin: 20px 20px;
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) solid rgba(26, 26, 26, 0.6);
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+.container.building img:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+  }
+  
+.container.building img {
+    border-radius: 5%;
+  }
+.location{
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin:50px auto;
+    width: 1240px;
+    display:flex;
+    background: url(../images-intro/bgr.png);
+}
+.loca-right{
+    padding:30px;
+}
+.loca-right img{
+    width:500px;
+    height:400px;
+}
+.loca-left iframe{
+    width:600px;
+    height:500px;
+    padding:30px;
+    margin-top:100px;
+}
+.loca-content{
+    margin-top:50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color:#000;
+    display:flex;
+}
+.j{
+    padding-left:80px;
+}

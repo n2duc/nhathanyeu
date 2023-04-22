@@ -1,0 +1,524 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- InstanceBeginEditable name="doctitle" -->
+    <title>Products | Nha than yeu</title>
+    <!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+    <link rel="stylesheet" href="./CSS/product.css">
+    <link rel="stylesheet" href="./CSS/template.css">
+    <script src="./JS/notification.js" defer></script>
+    <!-- InstanceEndEditable -->
+</head>
+
+<body>
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td>
+		  <header class="header">
+                <div class="header__link">
+                    <div class="header__link-left">
+                        <div class="social__link">
+							<a href="https://vi-vn.facebook.com/" target="_blank"><img src="icons/facebook.svg" alt=""></a>
+                            <a href="https://www.instagram.com/" target="_blank"><img src="icons/instagram.svg" alt=""></a>
+                            <a href="https://www.pinterest.com/" target="_blank"><img src="icons/pinterest.svg" alt=""></a>
+                        </div>
+                        <p class="help__number">Need help? Call: 1900 1234</p>
+                    </div>
+                    <div class="header__link-right">
+                        <ul>
+							<li><a href="index.html" target="_blank">HOME</a></li>
+                            <li><a href="about-us.html" target="_blank">ABOUT US</a></li>
+                            <li><a href="product.html" target="_blank">PRODUCTS</a></li>
+                            <li><a href="#login">LOGIN</a></li>
+                            <li><a class="english" href="#en"><img class="flag" src="images/flag.png" alt=""><span>ENGLISH</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__content">
+                    <div class="logo">
+                        <a href="#home">
+                        <img class="img1" src="images/logo.png" alt="">
+                        <img class="brand" src="images/brand.png" alt="">
+                        </a>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__top">
+                            <div class="search__input">
+                                <img src="icons/search.svg">
+                                <input type="text" placeholder="SEARCH">
+                            </div>
+                            <a href="#custom" class="custom">CUSTOM FURNTURE</a>
+                            <a href="cart" class="cart" target="_blank"><img src="icons/cart.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+	  </td>
+    </tr>
+    <tr>
+      <td><!-- InstanceBeginEditable name="EditRegion" -->&nbsp;
+
+                    <section class="section">
+                        <div class="left-pr">
+                            <div class="categories">
+                                <h1>CATEGORIES</h1>
+                                <ul>
+                                    <li>
+                                        <a href="#bed-bath">Bed & Bath
+                                            <span class="count ">9</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#decor">Home Decor
+                                            <span class="count">7</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#furniture">Furniture
+                                            <span class="count">10</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#lighting">Lighting
+                                            <span class="count">5</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#office">Office
+                                            <span class="count">6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#outdoor">Outdoor
+                                            <span class="count">4</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="price">
+                                <h1>PRICE</h1>
+                                <div class="slidecontainer">
+                                    <input type="range" min="1" max="3000" class="slider" id="myRange">
+                                    <div class="price-value">
+                                        <ul>
+                                            <li class="jslider-value"><span>$</span>0</li>
+                                            <li><span id="demo"></span></li>
+                                        </ul>
+                                    </div>
+                                    <script> 
+                                        var slider = document.getElementById("myRange");
+                                        var output = document.getElementById("demo");// Hiển thị giá trị thanh trượt mặc định
+                                        output.innerHTML = slider.value;//Cập nhật giá trị thanh trượt hiện tại (mỗi khi bạn kéo tay cầm thanh trượt)
+                                        slider.oninput = function () {
+                                            output.innerHTML = this.value;
+                                        }
+                                    </script>
+                                </div>
+                            </div>
+                            <div class="size">
+                                <h1>SIZE</h1>
+                                <ul class="size-pr">
+                                    <li class="thumbnail"><span>L</span></li>
+                                    <li class="thumbnail"><span>M</span></li>
+                                    <li class="thumbnail"><span>S</span></li>
+                                </ul>
+                            </div>
+                            <div class="brands">
+                                    <h1>BRANDS</h1>
+                                    <ul class="brand-img ">
+                                        <li><a href="#br1"><span><img class="thumbnail" src="./images-products/br1.jpg"></span></a></li>
+                                        <li><a href="#br2"><span><img class="thumbnail" src="./images-products/br2.jpg"></span></a></li>
+                                        <li><a href="#br3"><span><img class="thumbnail" src="./images-products/br3.jpg"></span></a></li>
+                                        <li><a href="#br4"><span><img class="thumbnail" src="./images-products/br4.jpg"></span></a></li>
+                                        <li><a href="#br5"><span><img class="thumbnail" src="./images-products/br5.jpg"></span></a></li>
+                                    </ul>
+                            </div>
+                            <div class="feature-product">
+                                <h1>FEATURED PRODUCT</h1>
+                                <a href="./shop-details.html" class="pr1 thumbnail" target="_blank">
+                                    <img src="./images/item1.jpg">
+                                    <div class="pr-content">
+                                        <p class="product-name">PANTON DINING TABLE</p>
+                                        <p>⭐⭐⭐⭐⭐</p>
+                                        <p class="product-price"><del aria-hidden="true">$199.00</del><span>$179.00</span></p>
+                                    </div>
+                                </a>
+                                <a href="./shop-details.html" class="pr1 thumbnail" target="_blank" >
+                                    <img src="./images/item2.jpg">
+                                    <div class="pr-content">
+                                        <p class="product-name">PANTON DINING TABLE</p>
+                                        <p>⭐⭐⭐⭐⭐</p>
+                                        <p class="product-price"><del aria-hidden="true">$199.00</del><span>$179.00</span></p>
+                                    </div>
+                                </a>
+                                <a href="./shop-details.html" class="pr1 thumbnail" target="_blank" >
+                                    <img src="./images/item3.jpg">
+                                    <div class="pr-content">
+                                        <p class="product-name">PANTON DINING TABLE</p>
+                                        <p>⭐⭐⭐⭐⭐</p>
+                                        <p class="product-price"><del aria-hidden="true">$199.00</del><span>$179.00</span></p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="right-pr">
+                            <div class="pr-topbar">
+                                <div class="pr-topbar-left">
+                                    <p class="product-count">Showing all 9 results</p>
+                                </div>
+                                <div class="pr-topbar-right">
+                                    <ul class="layout-toggle">
+                                        <li class="item">
+                                            <a class="link" href="#layout-grid">
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="grid" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-grid fa-lg"><path fill="currentColor" d="M0 72C0 49.9 17.9 32 40 32H88c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H40c-22.1 0-40-17.9-40-40V72zM0 232c0-22.1 17.9-40 40-40H88c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H40c-22.1 0-40-17.9-40-40V232zM128 392v48c0 22.1-17.9 40-40 40H40c-22.1 0-40-17.9-40-40V392c0-22.1 17.9-40 40-40H88c22.1 0 40 17.9 40 40zM160 72c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H200c-22.1 0-40-17.9-40-40V72zM288 232v48c0 22.1-17.9 40-40 40H200c-22.1 0-40-17.9-40-40V232c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40zM160 392c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H200c-22.1 0-40-17.9-40-40V392zM448 72v48c0 22.1-17.9 40-40 40H360c-22.1 0-40-17.9-40-40V72c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40zM320 232c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H360c-22.1 0-40-17.9-40-40V232zM448 392v48c0 22.1-17.9 40-40 40H360c-22.1 0-40-17.9-40-40V392c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40z" class=""></path></svg>
+                                            </a>
+                                        </li>
+                                        <li class="item">
+                                            <a class="link" href="#layout-list">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M40 48C26.7 48 16 58.7 16 72v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V72c0-13.3-10.7-24-24-24H40zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM16 232v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V232c0-13.3-10.7-24-24-24H40c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V392c0-13.3-10.7-24-24-24H40z"/></svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <div class="pr-sort">
+                                        <span class="sort-dropdown">
+                                            Default sorting
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-product">
+                                <div class="row">
+                                    <div class="item">
+                                        <div class="product-thumb">
+                                            <a href="./shop-details.html" class="product-link" target="_blank">
+                                                    <img src="./images/item1t1.webp" alt="" class="image-post">
+                                                    <video loop muted autoplay onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                                                        <source src="./images-products/yellow chair.mp4" type="video/mp4"></source>
+                                                    </video>
+                                            </a>
+                                            <div class="product-button">
+                                                <div class="heart-btn btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                        <path
+                                                                d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z" />
+                                                    </svg>
+                                                </div>
+                                                <div class="cart-btn btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                            <path
+                                                                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-content">
+                                            <a href="#product" class="product-name">LOUNGE CHAIR</a>
+                                            <p class="product-price"><span>$179.00</span></p>
+                                        </div>
+                                    </div>          
+                                    <div class="item">
+                                        <div class="product-thumb">
+                                            <div class="product-sale">Hot</div>
+                                            <a href="./shop-details.html" class="product-link" target="_blank">
+                                                    <img src="./images/item8.jpg" alt="" class="image-post">
+                                                    <img src="./images/item88.jpg" alt="" class="image-hover">
+                                            </a>
+                                            <div class="product-button">
+                                                <div class="heart-btn btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                        <path
+                                                                d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z" />
+                                                    </svg>
+                                                </div>
+                                                <div class="cart-btn btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                            <path
+                                                                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-content">
+                                            <a href="#product" class="product-name">MUNDO SOFA WITH CUSHION</a>
+                                            <p class="product-price"><del aria-hidden="true">$239.00</del><span>$215.00</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="product-thumb">
+                                            <div class="product-sale">-10%</div>
+                                            <a href="./shop-details.html" class="product-link" target="_blank">
+                                                    <img src="./images/item9.jpg" alt="" class="image-post">
+                                                    <img src="./images/item99.jpg" alt="" class="image-hover">
+                                            </a>
+                                            <div class="product-button">
+                                                <div class="heart-btn btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                        <path
+                                                                d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z" />
+                                                    </svg>
+                                                </div>
+                                                <div class="cart-btn btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                            <path
+                                                                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-content">
+                                            <a href="#product" class="product-name">CHAIR OAK MATT</a>
+                                            <p class="product-price"><del aria-hidden="true">$150.00</del><span>$135.00</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="item">
+                                        <div class="product-thumb">
+                                            <div class="product-sale">-35%</div>
+                                            <a href="./shop-details.html" class="product-link" target="_blank">
+                                                    <img src="./images/item1.jpg" alt="" class="image-post">
+                                                    <img src="./images/item11.jpg" alt="" class="image-hover">
+                                            </a>
+                                            <div class="product-button">
+                                                <div class="heart-btn btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                        <path
+                                                                d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z" />
+                                                    </svg>
+                                                </div>
+                                                <div class="cart-btn btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                            <path
+                                                                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                            <div class="product-content">
+                                                <a href="#product" class="product-name">PATON DINING TABLE</a>
+                                                <p class="product-price"><del aria-hidden="true">$199.00</del><span>$179.00</span></p>
+                                            </div>
+                                    </div>
+                                
+                                    <div class="item">
+                                        <div class="product-thumb">
+                                            <div class="product-sale">-10%</div>
+                                            <a href="./shop-details.html" class="product-link" target="_blank">
+                                                    <img src="./images-products/item1010.jpg" alt="" class="image-post">
+                                                    <img src="./images-products/item10.jpg" alt="" class="image-hover">
+                                            </a>
+                                            <div class="product-button">
+                                                <div class="heart-btn btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                        <path
+                                                                d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z" />
+                                                    </svg>
+                                                </div>
+                                                <div class="cart-btn btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                            <path
+                                                                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-content">
+                                            <a href="#product" class="product-name">NAMASTE VASE</a>
+                                            <p class="product-price"><del aria-hidden="true">$159.00</del><span>$135.00</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="product-thumb">
+                                            <div class="product-sale">Best sale</div>
+                                            <a href="./shop-details.html" class="product-link" target="_blank">
+                                                    <img src="./images/item5.jpg" alt="" class="image-post">
+                                                    <img src="./images/item55.jpg" alt="" class="image-hover">
+                                            </a>
+                                            <div class="product-button">
+                                                <div class="heart-btn btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                        <path
+                                                                d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z" />
+                                                    </svg>
+                                                </div>
+                                                <div class="cart-btn btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                            <path
+                                                                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-content" target="_blank">
+                                            <a href="#product" class="product-name">BORA ARMCHAIR</a>
+                                            <p class="product-price"><span>$99.00</span></p>
+                                        </div>
+                                    </div>
+                                </div>	
+                                <div class="row">
+                                    <div class="item">
+                                        <div class="product-thumb">
+                                            <div class="product-sale">-10%</div>
+                                            <a href="./shop-details.html" class="product-link" target="_blank">
+                                                    <img src="./images/item4.jpg" alt="" class="image-post">
+                                                    <img src="./images/item44.jpg" alt="" class="image-hover">
+                                            </a>
+                                            <div class="product-button">
+                                                <div class="heart-btn btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                        <path
+                                                                d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z" />
+                                                    </svg>
+                                                </div>
+                                                <div class="cart-btn btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                            <path
+                                                                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-content">
+                                            <a href="#product" class="product-name">SPINNING PENDANT LAMP</a>
+                                            <p class="product-price"><del aria-hidden="true">$159.00</del><span>$135.00</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="product-thumb">
+                                            <a href="./shop-details.html" class="product-link" target="_blank">
+                                                    <img src="./images/item3.jpg" alt="" class="image-post">
+                                                    <img src="./images/item33.jpg" alt="" class="image-hover">
+                                            </a>
+                                            <div class="product-button">
+                                                <div class="heart-btn btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                        <path
+                                                                d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z" />
+                                                    </svg>
+                                                </div>
+                                                <div class="cart-btn btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                            <path
+                                                                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-content">
+                                            <a href="#product" class="product-name">MASS SOFA 2.5 SEATER</a>
+                                            <p class="product-price"><span>$215.00</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="product-thumb">
+                                            <div class="product-sale">-10%</div>
+                                            <a href="./shop-details.html" class="product-link" target="_blank">
+                                                    <img src="./images/item2.jpg" alt="" class="image-post">
+                                                    <img src="./images/item22.jpg" alt="" class="image-hover">
+                                            </a>
+                                            <div class="product-button">
+                                                <div class="heart-btn btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                        <path
+                                                                d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z" />
+                                                    </svg>
+                                                </div>
+                                                <div class="cart-btn btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                            <path
+                                                                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-content">
+                                            <a href="#product" class="product-name">PILLAR DINING TABLE</a>
+                                            <p class="product-price"><del aria-hidden="true">$150.00</del><span>$135.00</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="page-number">
+                                <ul>
+                                    <li><a class="number" href="./product.html"><img src="./images-products/chevron-left.svg"></a></li>
+                                    <li><a class="number1" href="./product.html">1</a></li>
+                                    <li><a class="number" href="./product.html">2</a></li>
+                                    <li><a class="number" href="./product.html">3</a></li>
+                                    <li><a class="number" href="./product.html"><img src="./images-products/chevron-right.svg"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- InstanceEndEditable --></td>
+    </tr>
+    <tr>
+      <td>&nbsp;
+		  <footer class="footer">
+        <div class="footer-top">
+
+            <div class="left">
+                <div class="in-left">
+                    <h2>CONTACT US</h2>
+                    <ul>
+                        <li>1900.1234</li>
+                        <li>1900.5678</li>
+                        <li>Fax: 068.032.0205</li>
+                        <li>Gmail: nhathanyeu@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="in-left">
+                    <h2>SERVICES</h2>
+                    <ul>
+                        <li>Sales</li>
+                        <li>Quick Ship</li>
+                        <li>New Designs</li>
+                        <li>Furniture Care</li>
+                        <li>Gift Cards</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="middle">
+                <img src="images/no%20hastag.png" class="logo" alt="">
+                <div class="icon">
+					<a href="#home"><img src="icons/house-solid.svg" alt=""></a>
+                    <a href="https://www.tiktok.com/vi-VN"><img src="icons/tiktok.svg" alt=""></a>
+                    <a href="https://twitter.com/?lang=vi"><img src="icons/twitter.svg" alt=""></a>
+                    <a href="https://www.youtube.com/"><img src="icons/youtube.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="right">
+                <h2>NEWSLETTER</h2>
+                <p>Enter your email below to be the first to know about new collections and product launches.</p>
+                <div>
+                    <form id="frm1">
+                        <input class="mail-input" type="text" placeholder="Enter Your Email">
+                    </form>
+				
+                    <input onclick="myFunction()" type="submit" Value="Send" style="margin-top:20px;">
+					<p id="demo_n"></p>
+                </div>
+                <div>
+                    <img src="images/pay.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © Nhathanyeu. Designed by Quynh Nhu</p>
+        </div>
+    </footer>
+	  </td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+<!-- InstanceEnd --></html>

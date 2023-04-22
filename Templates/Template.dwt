@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Nha than yeu</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+	<link rel="stylesheet" href="../template.css">
+	<script src="../nhathanyeu.js"></script>
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td>
+		  <header class="header">
+                <div class="header__link">
+                    <div class="header__link-left">
+                        <div class="social__link">
+							<a href="https://vi-vn.facebook.com/" target="_blank"><img src="icons/facebook.svg" alt=""></a>
+                            <a href="https://www.instagram.com/" target="_blank"><img src="icons/instagram.svg" alt=""></a>
+                            <a href="https://www.pinterest.com/" target="_blank"><img src="icons/pinterest.svg" alt=""></a>
+                        </div>
+                        <p class="help__number">Need help? Call: 1900 1234</p>
+                    </div>
+                    <div class="header__link-right">
+                        <ul>
+							<li><a href="index.html" target="_blank">HOME</a></li>
+                            <li><a href="about-us.html" target="_blank">ABOUT US</a></li>
+                            <li><a href="product.html" target="_blank">PRODUCTS</a></li>
+                            <li><a href="#login">LOGIN</a></li>
+                            <li><a class="english" href="#en"><img class="flag" src="images/flag.png" alt=""><span>ENGLISH</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__content">
+                    <div class="logo">
+                        <a href="#home">
+                        <img class="img1" src="images/logo.png" alt="">
+                        <img class="brand" src="images/brand.png" alt="">
+                        </a>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__top">
+                            <div class="search__input">
+                                <img src="icons/search.svg">
+                                <input type="text" placeholder="SEARCH">
+                            </div>
+                            <a href="#custom" class="custom">CUSTOM FURNTURE</a>
+                            <a href="cart" class="cart" target="_blank"><img src="icons/cart.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+	  </td>
+    </tr>
+    <tr>
+      <td><!-- TemplateBeginEditable name="EditRegion" -->&nbsp;<!-- TemplateEndEditable --></td>
+    </tr>
+    <tr>
+      <td>&nbsp;
+		  <footer class="footer">
+        <div class="footer-top">
+
+            <div class="left">
+                <div class="in-left">
+                    <h2>CONTACT US</h2>
+                    <ul>
+                        <li>1900.1234</li>
+                        <li>1900.5678</li>
+                        <li>Fax: 068.032.0205</li>
+                        <li>Gmail: nhathanyeu@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="in-left">
+                    <h2>SERVICES</h2>
+                    <ul>
+                        <li>Sales</li>
+                        <li>Quick Ship</li>
+                        <li>New Designs</li>
+                        <li>Furniture Care</li>
+                        <li>Gift Cards</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="middle">
+                <img src="images/no%20hastag.png" class="logo" alt="">
+                <div class="icon">
+					<a href="#home"><img src="icons/house-solid.svg" alt=""></a>
+                    <a href="https://www.tiktok.com/vi-VN"><img src="icons/tiktok.svg" alt=""></a>
+                    <a href="https://twitter.com/?lang=vi"><img src="icons/twitter.svg" alt=""></a>
+                    <a href="https://www.youtube.com/"><img src="icons/youtube.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="right">
+                <h2>NEWSLETTER</h2>
+                <p>Enter your email below to be the first to know about new collections and product launches.</p>
+                <div>
+                    <form id="frm1">
+                        <input class="mail-input" type="text" placeholder="Enter Your Email">
+                    </form>
+				
+                    <input onclick="myFunction()" type="submit" Value="Send" style="margin-top:20px;">
+					<p id="demo_n"></p>
+                    <script>
+                        function myFunction() {
+                          var x = document.getElementById("frm1");
+                          var text = "";
+                          var i;
+                          for (i = 0; i < x.length ;i++) {
+                            text += "Thank you, we will send you an e-mail to " + x.elements[i].value + ", enclose our new information.";
+                          }
+                          document.getElementById("demo_n").innerHTML = text;
+                        }
+                    </script>
+                </div>
+                <div>
+                    <img src="images/pay.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © Nhathanyeu. Designed by Quynh Nhu</p>
+        </div>
+    </footer>
+	  </td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
