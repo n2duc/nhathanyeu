@@ -1,4 +1,3 @@
-AOS.init();
 
 const box = document.querySelectorAll(".image");
 box.forEach((item) => {
